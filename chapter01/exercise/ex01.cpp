@@ -1,9 +1,3 @@
-/*
-姓名：吕翔
-班级：17计算机科学与技术2班
-学号：170201102778
-内容：P26 习题1 1 
-*/
 #include<iostream>
 
 using namespace std;

@@ -1,4 +1,3 @@
-//人员(Person)类的私有派生子类雇员类(Employee)的使用
 #include<iostream>
 #include<cstring>
 

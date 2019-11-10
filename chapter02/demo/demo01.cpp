@@ -1,4 +1,3 @@
-//人员(Person)类及其子类雇员类(Employee)的定义及使用
 #include<iostream>
 #include<cstring>
 

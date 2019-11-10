@@ -1,4 +1,3 @@
-//抽象Shape类的实现及使用
 #include<iostream>
 
 using namespace std;

@@ -1,0 +1,6 @@
+## remove chapter .exe ##
+chapter01/*/*.exe
+chapter02/*/*.exe
+
+## remove experiment .exe##
+experiment/*.exe

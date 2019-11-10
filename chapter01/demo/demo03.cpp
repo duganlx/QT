@@ -1,4 +1,3 @@
-// 完整的银行账户类及其使用
 #include<iostream>
 #include<cstring> 
 

@@ -1,21 +1,20 @@
-//虚函数实现多态性
 #include<iostream>
 
 using namespace std;
 
-class Shape
+class Shape  //基类 
 {
 public:
-	virtual void draw()
+	void draw()
 	{
 		cout<<"Draw something."<<endl;
-	} 
+	}
 };
 
 class Line : public Shape
 {
 public:
-	virtual void draw()
+	void draw()
 	{
 		cout<<"Draw a line."<<endl;
 	}
@@ -29,7 +28,7 @@ public:
 		cout<<"Draw a circle."<<endl;
 	}
 };
- 
+
 int main()
 {
 	Shape *p, obj;

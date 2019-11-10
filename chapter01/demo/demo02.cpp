@@ -1,6 +1,5 @@
-// 具有共有和私有成员的账户类 
 #include<iostream>
-#include<cstring>
+#include<cstring> 
 
 using namespace std;
 
@@ -13,7 +12,16 @@ private:
 public:
 	void Initial(int ID, char Name[], float balance); //初始化 
 	int withdraw(float m);  //取钱 
-	void deposits(float m); //存钱 
+	void deposits(float m); //存钱
+	
+	char* getName(){
+		return Name;
+	} 
+	 
+	void setName(char* name){
+		strcpy(Name, name);
+	}
+	
 	void showMe(){
 		cout<<Name<<" "<<balance<<endl;
 	}
@@ -42,16 +50,15 @@ void Account::deposits(float m)
 
 int main()
 {
-	Account my, other;
+	Account my;
 	char name[] = "Jack";
 	my.Initial(10112, name, 600.0);
-	my.showMe();
 	my.withdraw(500.0);
 	my.showMe();
 	
-	//cout<<my.Name<<" "<<my.balance<<endl; error
-	//other.balance = 300; error
-	//other.ID = 20112; error
-	
+	char *p = my.getName(); //违反私有属性访问规则 
+	strcpy(p, "abc");
+	my.showMe();
 	return 0;
 }
+

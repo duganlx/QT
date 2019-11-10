@@ -1,21 +1,20 @@
-//派生类对象转换为基类对象使用
 #include<iostream>
 
 using namespace std;
 
-class Shape  //基类 
+class Shape
 {
 public:
-	void draw()
+	virtual void draw()
 	{
 		cout<<"Draw something."<<endl;
-	}
+	} 
 };
 
 class Line : public Shape
 {
 public:
-	void draw()
+	virtual void draw()
 	{
 		cout<<"Draw a line."<<endl;
 	}
@@ -29,7 +28,7 @@ public:
 		cout<<"Draw a circle."<<endl;
 	}
 };
-
+ 
 int main()
 {
 	Shape *p, obj;

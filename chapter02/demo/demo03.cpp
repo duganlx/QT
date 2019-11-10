@@ -1,4 +1,3 @@
-//派生类构造函数和析构函数的执行
 #include<iostream>
 #include<cstring>
 
