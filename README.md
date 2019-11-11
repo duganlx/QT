@@ -178,6 +178,29 @@ root
 > 第0个：9   
 > 第1个：8   
 > 第2个：7   
+>
 > \[s1-s2\]内容为：1 12 23  
 > \[s1+s2\]内容为：19 28 37  
 
+### chapter03
+#### demo 
+- [利用手工编码方式建立“Hello Qt!”程序](./chapter03/demo/demo01)
+- [利用无UI的应用程序向导建立“Hello Qt!”程序](./chapter03/demo/demo02)
+- [利用Qt设计器建立“Hello Qt!”程序](./chapter03/demo/demo03)
+- [无图像用户界面的简单信号和槽的例子](./chapter03/demo/demo04)
+- [使用控件内部定义好的信号和槽](./chapter03/demo/demo05)
+#### exercise
+- 习题1
+> 请对比用无UI向导方式和用有UI的向导自动建立基于QDialog的程序时，编译运行后工程目录中各有哪些不同的文件，哪些文件是自动生成的，
+> 这些自动生成的文件是如何被main函数使用的。  
+> 答：（个人观察，不一定是正确的）  
+> 无UI向导自动生成的文件会有`demo02.pro`,`dialog.h`,`dialog.cpp`,`main.cpp`，而main如何使用的，首先在`main.cpp`中通过引入头文件`#include "dialog.h"`
+> 将dialog相关的引入进入，然后在main函数的这行代码`Dialog w`，调用`dialog.h`头文件中`Dialog`类的初始化，
+> 而`Dialog`的构造函数在`dialog.cpp`中定义。  
+> 有UI向导自动生成的文件会有`demo03.pro`,`dialog.h`,`dialog.cpp`,`main.cpp`,`dialog.ui`，main中使用首先也是`Dialog w`，
+> 这句代码，这句会引用`dialog.h`中的构造函数，而构造函数在`dialog.cpp`进行类外定义，而在构造函数中通过使用`ui(new Ui::Dialog)`给内嵌对象ui初始化，
+> 而这句代码调用`ui_dialog.h`中的构造函数。
+
+- [习题2](./chapter03)
+> 例3-5中的标签QLabel对象可以通过setText函数设置显示内容，并且setText函数本身是一个槽函数，可以接收信号。
+> 仿照例3-5编写程序，标签对象初始化显示0，每次单击标签对象后，其显示内容就加1，依次变为1、2、3等。  
