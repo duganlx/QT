@@ -7,3 +7,4 @@ experiment/*.exe
 
 ## remove qt comple files##
 chapter03/*/build-*
+chapter04/*/build-*
