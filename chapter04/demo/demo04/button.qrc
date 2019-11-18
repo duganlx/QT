@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/open.ico</file>
+        <file>rc/play.ico</file>
+    </qresource>
+</RCC>
