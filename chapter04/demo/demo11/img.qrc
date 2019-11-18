@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/friend.ico</file>
+        <file>img/friend1.ico</file>
+        <file>img/friend2.ico</file>
+        <file>img/lisa.ico</file>
+        <file>img/stranger.ico</file>
+    </qresource>
+</RCC>

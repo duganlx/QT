@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/ftp.ico</file>
+        <file>rc/www.ico</file>
+    </qresource>
+</RCC>
