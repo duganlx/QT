@@ -211,3 +211,23 @@ root
 - [习题2](./chapter03/exercise/ex02)
 > 例3-5中的标签QLabel对象可以通过setText函数设置显示内容，并且setText函数本身是一个槽函数，可以接收信号。
 > 仿照例3-5编写程序，标签对象初始化显示0，每次单击标签对象后，其显示内容就加1，依次变为1、2、3等。  
+
+### chapter04
+#### demo
+- [窗体几何尺寸的设置和获取](./chapter04/demo/demo01)
+- [窗口标题及大小控制](./chapter04/demo/demo02)
+- [用标签显示位图](./chapter04/demo/demo03)
+- [按钮的使用](./chapter04/demo/demo04)
+- [单选按钮、复选框的使用](./chapter04/demo/demo05)
+- [组合框的使用](./chapter04/demo/demo06)
+- [列表框的使用](./chapter04/demo/demo07)
+- [单行编辑框的使用](./chapter04/demo/demo08)
+- [滑动条的使用](./chapter04/demo/demo09)
+- [进度条示例](./chapter04/demo/demo10)
+- [抽屉效果示例](./chapter04/demo/demo11)
+- [多页面切换效果](./chapter04/demo/demo12)
+- [层叠窗体控件的使用](./chapter04/demo/demo13)
+- [树状显示效果](./chapter04/demo/demo14)
+- [表格控件显示效果](./chapter04/demo/demo15)
+- [QTextEdit简单使用](./chapter04/demo/demo16)
+#### exercise
