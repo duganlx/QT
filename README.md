@@ -231,3 +231,9 @@ root
 - [表格控件显示效果](./chapter04/demo/demo15)
 - [QTextEdit简单使用](./chapter04/demo/demo16)
 #### exercise
+
+
+### chapter05
+#### demo
+- [添加文件打开菜单及工具栏按钮](./chapter05/demo/demo01)
+#### exercise

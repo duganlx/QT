@@ -1,11 +1,9 @@
 ## remove chapter .exe ##
-chapter01/*/*.exe
-chapter02/*/*.exe
+chapter0*/*/*.exe
 
 ## remove experiment .exe##
 experiment/*.exe
 experiment/build-*
 
 ## remove qt comple files##
-chapter03/*/build-*
-chapter04/*/build-*
+chapter0*/*/build-*
