@@ -13,6 +13,12 @@ root
 |-- chapter03
     |-- demo：示例
     |-- exercise：习题
+|-- chapter04
+    |-- demo：示例
+    |-- exercise：习题
+|-- chapter05
+    |-- demo：示例
+    |-- exercise：习题
 |-- experiment：实验
 ```
 ### experiment
@@ -236,4 +242,8 @@ root
 ### chapter05
 #### demo
 - [添加文件打开菜单及工具栏按钮](./chapter05/demo/demo01)
+- [利用Qt Designer添加文件打开菜单及工具栏按钮](./chapter05/demo/demo02)
+- [一个简单的模态对话框](./chapter05/demo/demo03)
+- [从模态对话框得到数据](./chapter05/demo/demo04)
+- [从非模态对话框得到数据](./chapter05/demo/demo05)
 #### exercise
