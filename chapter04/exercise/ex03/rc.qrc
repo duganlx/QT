@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>whiteboard.png</file>
+        <file>crossme.png</file>
+        <file>ink_pen.png</file>
+        <file>lock.png</file>
+        <file>eye.png</file>
+    </qresource>
+</RCC>
