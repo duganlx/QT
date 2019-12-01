@@ -19,6 +19,9 @@ root
 |-- chapter05
     |-- demo：示例
     |-- exercise：习题
+|-- chapter06
+    |-- demo：示例
+    |-- exercise：习题
 |-- experiment：实验
 ```
 ### experiment
@@ -279,3 +282,11 @@ root
 > 这两个命令对应工具栏最后两个按钮。
 > 程序运行结果如下图所示。  
 > ![](./photo/chapter5_ex01.png)
+
+### chapter06
+#### demo
+- [QHBoxLayout的使用](./chapter06/demo/demo01)
+- [QVBoxLayout的使用](./chapter06/demo/demo02)
+- [QGridLayout的基本用法示例](./chapter06/demo/demo03)
+- [用网格布局构造温度转换程序界面](./chapter06/demo/demo04)
+#### exercise
