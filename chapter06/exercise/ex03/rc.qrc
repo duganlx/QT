@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>computer.ico</file>
+        <file>desktop.ico</file>
+        <file>docs.ico</file>
+        <file>icon01.ico</file>
+        <file>icon02.ico</file>
+        <file>icon03.ico</file>
+        <file>icon04.ico</file>
+        <file>folder.ico</file>
+    </qresource>
+</RCC>
